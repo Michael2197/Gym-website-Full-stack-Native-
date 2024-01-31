@@ -1,0 +1,867 @@
+#video{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+.navbar{
+    position: relative;
+    background-color: aliceblue;
+    height: 7vh;
+    opacity: 0.9;
+}
+.content{
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    height: 3.5vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.con {
+    color: black;
+}
+.con:hover{
+    color: red;
+}
+
+.log{
+    display: none;
+    background-color: darkred;
+    position: relative;
+    width: 25%;
+    height: 75vh;
+    left: 61%;
+    top: 5px;
+    border-radius: 20px;
+}
+.log1{
+    background-color: aliceblue;
+    position: absolute;
+    width: 50%;
+    height: 22vh;
+    left: 25%;
+    top: 2vh;
+    border-radius: 50%;
+    
+}
+.log1a{
+    position: absolute;
+    width: 80%;
+    height: 20vh;
+    left: 10%;
+    top: 1vh;
+}
+.log2{
+position: absolute;
+color: white;
+top: 25vh;
+left: 25%;
+width: 50%;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.log3{
+    position: absolute;
+    width: 80%;
+    height: 45vh;
+    left: 10%;
+    top: 35vh;
+}
+.email{
+    width: 100%;
+    height: 4vh;
+
+}
+.pass{
+    width: 100%;
+    height: 4vh;
+
+}
+.btn1{
+    position: relative;
+    top: 13vh;
+    left: 28%;
+    width: 20%;
+    height: 3vh;
+    border: 3px solid black;
+}
+
+
+.a{
+background-color: white;
+   position: relative;
+    width: 22%;
+    height: 44vh;
+    left: 39%;
+    top: 5vh;
+    border-radius: 300px;
+    opacity: 0.5;
+}
+.a1{
+    position: absolute;
+    mix-blend-mode:multiply;
+    width: 80%;
+    height: 40vh;
+    left: 10%;
+    top: 1vh;
+}
+.b{
+    background-color: transparent;
+   position: relative;
+    width: 90%;
+    height: 40vh;
+    left: 5%;
+    top: 35vh;
+}
+.b1{
+   background-color: blue;
+   position: absolute;
+    width: 45%;
+    height: 40vh;
+}
+.b1a{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    
+
+}
+.b1a:hover{
+    width: 105%;
+    height: 45vh;
+    border: 0.5ch solid white;
+
+
+
+}
+.b2{
+    background-color: red;
+   position: absolute;
+    width: 45%;
+    height: 40vh;
+    left:55%;
+}
+.b2a{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+
+}
+.b2a:hover{
+    width: 105%;
+    height: 45vh;
+    border: 0.5ch solid white;
+
+
+
+}
+
+@media(max-width:1933px) {
+
+    .c{
+         flex-direction: column;
+         align-items: center;
+     }
+ }
+.c{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    width: 45%;
+    height: 10vh;
+    left: 28%;
+    top: 45vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;    
+    animation: spin 1s ease infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotatex(45deg);
+    }
+}
+
+
+.d{
+    background-color: transparent;
+   position: relative;
+   width: 90%;
+   height: 40vh;
+   left: 5%;
+   top: 55vh;
+
+}
+.d1{
+    position: absolute;
+    width:45%;
+    height: 40vh;
+
+}
+.d1a{
+    position: absolute;
+    width:100%;
+    height: 40vh;
+}
+.d1a:hover{
+    width: 105%;
+    height: 45vh;
+    border: 0.5ch solid white;
+}
+.d2{
+    position: absolute;
+    width:45%;
+    height: 40vh;
+    left:55%;
+}
+.d2a{
+    position: absolute;
+    width:100%;
+    height: 40vh;
+}
+.d2a:hover{
+    width: 105%;
+    height: 45vh;
+    border: 0.5ch solid white;
+}
+
+.f{
+    background-color: transparent;
+   position: relative;
+   width: 100%;
+   height: 50vh;
+   top: 97vh;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.f1{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.f1a{
+  position: absolute;
+  background-color: transparent;
+  width: 25%;
+  height: 3.5vh;
+  left: 70%;
+}
+.srh{
+    position: absolute;
+    width: 80%;
+    height: 3.5vh;
+    top: 10%;
+
+} 
+#btn{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20%;
+    height: 3.8vh;
+    left: 83%;
+
+    
+}
+#btn:hover{
+    background-color: darkred;
+} 
+.f1b{
+    position: absolute;
+  background-color: transparent;
+  color: white;
+  width: 25%;
+  right: 60%;
+  display: flex;
+  align-items: center;
+
+}
+.f2{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    top: 30%;
+    color: black;
+    opacity: 0.9;
+
+}
+.f2a{
+    position: absolute;
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.f2b{
+    position: absolute;
+    width: 20%;
+    height: 30vh;  
+    left: 20%; 
+    display: flex;
+    justify-content: center;
+}
+.f2a1{
+position: absolute;
+display: flex;
+gap: 30%;
+width: 50%;
+align-items: center;
+justify-content: center;
+
+
+}
+.f2c{
+    position: absolute;
+    width: 20%;
+    height: 30vh;  
+    left: 40%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.f2d{
+    position: absolute;
+    width: 20%;
+    height: 30vh;  
+    left: 60%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.f2e{
+    position: absolute;
+    width: 20%;
+    height: 30vh;  
+    left: 80%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.f3{
+    background-color: black;
+    color: white;
+   position: absolute;
+   display: flex;
+    align-items: center;  
+    justify-content: center;
+   width: 100%;
+   height: 10vh;
+   top: 45vh;
+   font-size: x-small;
+}
+
+/* sign in page */
+
+.newmember{
+    position: relative;
+    background-color: black;
+    width: 60%;
+    height: 120vh;
+    left: 20%;
+    top: 20vh;
+}
+.newmember1{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    height: 30vh;
+    left: 35%;
+    top: 5vh;
+    border-radius: 50%;
+}
+.nm1{
+    position: absolute;
+    width: 80%;
+    height: 25vh;
+    left: 10%;
+    top: 2vh;
+
+
+}
+.newmember2{
+    position: absolute;
+    color: white;
+    width: 30%;
+    height: 5vh;
+    left: 35%;
+    top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newmember3{
+    position: absolute;
+    width: 50%;
+    height: 70vh;
+    left: 25%;
+    top: 45vh;
+    display: grid;
+    align-content: center; 
+}
+.inputa{
+    height: 4vh;
+
+}
+.input2a{
+    height: 4vh;
+
+}
+.input3a{
+    height: 4vh;
+
+}
+.bba{
+    position: absolute;
+    width: 25%;
+    height: 3vh;
+    top: 60vh; 
+    left: 7%;   
+   
+}
+.bba1{
+    position: absolute;
+    width: 25%;
+    height: 3vh;
+    top: 60vh; 
+    left: 70%;   
+}
+/* user page */
+.user{
+    position: absolute;
+    color: white;
+    width: 20%;
+    height: 5%;
+    left: 40%;
+    top: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 0.5ch solid white;
+    animation: fade-input 0.8s infinite alternate; 
+}
+@keyframes fade-input {
+    0%{opacity: 1; color: red;}
+    100%{opacity: 0.5;}
+}
+.trainers{
+    display: none;
+    background-color:maroon;
+    position: relative;
+    width: 25%;
+    height: 80vh;
+    left: 49%;
+    top: 5px;
+    border-radius: 20px;
+
+}
+.trainers1{
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.trainers2{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 13vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+}
+.trainers2:hover{ 
+   border: 0.3ch solid white;
+}
+.trainers2a{
+    background-color: black;
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers21{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers2b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+    font-size: large;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.trainers3{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 30vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+}
+.trainers3:hover{ 
+    border: 0.3ch solid white;
+ }
+.trainers3a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers31{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers3b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+    font-size: large;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.trainers4{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 47vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+
+}
+.trainers4:hover{ 
+    border: 0.3ch solid white;
+ }
+.trainers4a{
+    background-color: greenyellow;
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers41{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers4b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+    font-size: large;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.trainers5{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 65vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+
+}
+.trainers5:hover{ 
+    border: 0.3ch solid white;
+ }
+.trainers5a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers51{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.trainers5b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+    font-size: large;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Products{
+    display: none;
+    background-color: darkred;
+    position: relative;
+    width: 30%;
+    height: 85vh;
+    left: 37%;
+    top: 5px;
+    border-radius: 20px;
+
+}
+.Products1{
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.Products2{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 10vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+}
+.Products2:hover{ 
+   border: 0.3ch solid white;
+}
+.Products2a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products21{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products2b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+    
+}
+.Products3{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 27vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+}
+.Products3:hover{ 
+    border: 0.3ch solid white;
+ }
+.Products3a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products31{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products3b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+}
+.Products4{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 44vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+
+}
+.Products4:hover{ 
+    border: 0.3ch solid white;
+ }
+.Products4a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products41{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products4b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+}
+.Products5{
+    position: absolute;
+    width: 99.4%;
+    height: 15vh;
+    top: 61vh;
+    border-radius: 20px;
+    border: 0.3ch solid black;
+
+}
+.Products5:hover{ 
+    border: 0.3ch solid white;
+ }
+.Products5a{
+    position: absolute;
+    width: 30%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products51{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    border-radius: 20px;
+}
+.Products5b{
+    color: white;
+    position: absolute;
+    width: 65%;
+    height: 15vh;
+    left: 35%;
+    border-radius: 20px;
+    gap: 10%;
+}
+
+
+/* user main */
+
+.y{
+    background-color:black;
+    color:whitesmoke;
+    position: relative;
+     width: 50%;
+     height: 40vh;
+     top: 20vh;
+     left: 25%;
+     border: 3ch solid whitesmoke;
+     font-style: italic;
+     font-size: larger;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: flex;
+     justify-content: center;
+     
+
+}
+
+.z{
+    background-color:whitesmoke;
+    position: relative;
+     width: 30%;
+     height: 70vh;
+     top: 50vh;
+     left: 2.5%;
+
+
+}
+.z1{
+    background-color:whitesmoke;
+    position: absolute;
+     width: 180%;
+     height: 15vh;
+     top: 27vh;
+     left: 130%;
+
+}
+.z2{
+    position: absolute;
+     width: 120%;
+     height: 65vh;
+     top: 2.5vh;
+     left: 20%;
+     border: 0.5ch solid whitesmoke;
+
+}
+.z2a{
+    position: absolute;
+     width: 100%;
+     height: 65vh;
+}
+.z12{
+    position: absolute;
+    color: black;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    top: 2.5vh;
+    left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;    
+    animation: spin 1s ease infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotatex(45deg);
+    }
+}
+
+
+
